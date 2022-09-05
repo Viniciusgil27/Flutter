@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 main() {
-  runApp(new PerguntaApp());
+  runApp(PerguntaApp());
 }
 
 class PerguntaApp extends StatelessWidget {
@@ -10,7 +10,7 @@ class PerguntaApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(),
-        body: Text('Olá Flutter'),
+        body: Text('Olá Vini'),
       ),
     );
   }
